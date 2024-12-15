@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khizar Zubair - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="resumediv">
+        <!-- Header -->
+        <header>
+            <div>
+                <h1>Khizar Zubair</h1>
+                <p>Frontend Developer</p>
+            </div>
+            <img src="profile.png" alt="profile">
+        </header>
+
+        <div class="main-content">
+            <!-- Left Sidebar Content -->
+            <aside class="sidebar">
+                <section id="contact" class="contact">
+                    <h2>Contact</h2>
+                    <p><strong>Phone:</strong> 0300-******</p>
+                    <p><strong>Email:</strong> Khizarzubair@gmail.com</p>
+                    <p><strong>Address:</strong> Malir, Karachi</p>
+                </section>
+
+                <section id="education" class="education">
+                    <h2>Education</h2>
+                    <p>2024 - <strong>Computer Science</strong> - GIAIC</p>
+                    <p>2020 - <strong>Digital Marketing</strong> - Novs Soft</p>
+                </section>
+
+                <section id="skills" class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Next.js</li>
+                        <li>React.js</li>
+                        <li>MySQL</li>
+                    </ul>
+                </section>
+            </aside>
+
+            <!-- Main Content (Experience and References) -->
+            <main class="experience-section">
+                <!-- Experience Section -->
+                <section id="experience" class="workexpe">
+                    <h2>Experience</h2>
+                    <div class="experience-item">
+                        <p><strong>ABS Com | Karachi</strong></p>
+                        <p><em>Frontend Developer (2020–2024)</em></p>
+                        <p>
+                            Developed responsive web designs and enhanced user experiences by implementing modern web 
+                            technologies such as HTML5, CSS3, and JavaScript.
+                        </p>
+                    </div>
+                    <div class="experience-item">
+                        <p><strong>Tech Solutions | Karachi</strong></p>
+                        <p><em>UI/UX Designer (2024–Present)</em></p>
+                        <p>
+                            Designed and developed intuitive, user-centric web interfaces using React.js and Next.js.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- References Section -->
+                <section id="references" class="references">
+                    <h2>References</h2>
+                    <div class="reference-item">
+                        <p><strong>Mr. Ali Ahmed</strong></p>
+                        <p>Senior Developer at ABS Com</p>
+                        <p>Email: ali.ahmed@example.com | Phone: 0311-*******</p>
+                    </div>
+                    <div class="reference-item">
+                        <p><strong>Ms. Sara Khan</strong></p>
+                        <p>Project Manager at Tech Solutions</p>
+                        <p>Email: sara.khan@example.com | Phone: 0322-*******</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- Buttons to Scroll to Sections -->
+        <div class="buttons-container">
+            <button onclick="scrollToSection('contact')">Contact</button>
+            <button onclick="scrollToSection('education')">Education</button>
+            <button onclick="scrollToSection('skills')">Skills</button>
+            <button onclick="scrollToSection('experience')">Experience</button>
+            <button onclick="scrollToSection('references')">References</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
